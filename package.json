@@ -15,7 +15,9 @@
   ],
   "dependencies": {
   	"cfenv": "*",
-    "nconfig": "*"
+    "nconfig": "*",
+    "lodash": "~3.9.3",
+    "bunyan": "^1.3.2"
   },
   "devDependencies": {
     "mocha": "*"
