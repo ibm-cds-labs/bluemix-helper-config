@@ -1,0 +1,25 @@
+{
+  "name": "bluemix-helper-config",
+  "version": "0.1.0",
+  "description": "Bluemix Helper for managing config",
+  "main": "./lib/index",
+  "author": "david_taieb@us.ibm.com",
+  "scripts": {
+  },
+  "repository": {
+   "type" : "git",
+   "url": "git+https://github.com/ibm-cds-labs/bluemix-helper-config.git"
+  },
+  "keywords": [
+    "bluemix"
+  ],
+  "dependencies": {
+  	"cfenv": "*",
+    "nconfig": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md"
+}
