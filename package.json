@@ -1,6 +1,6 @@
 {
   "name": "bluemix-helper-config",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Bluemix Helper for managing config",
   "main": "./lib/index",
   "author": "david_taieb@us.ibm.com",
@@ -18,7 +18,8 @@
     "nconfig": "*",
     "lodash": "~3.9.3",
     "bunyan": "^1.3.2",
-    "moment": "^2.10.3"
+    "moment": "^2.10.3",
+    "cloudant": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*"
