@@ -1,6 +1,6 @@
 {
   "name": "bluemix-helper-config",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Bluemix Helper for managing config",
   "main": "./lib/index",
   "author": "david_taieb@us.ibm.com",
