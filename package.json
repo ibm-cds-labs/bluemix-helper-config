@@ -5,10 +5,12 @@
   "main": "./lib/index",
   "author": "david_taieb@us.ibm.com",
   "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
-   "type" : "git",
-   "url": "git+https://github.com/ibm-cds-labs/bluemix-helper-config.git"
+    "type": "git",
+    "url": "git+https://github.com/ibm-cds-labs/bluemix-helper-config.git"
   },
   "keywords": [
     "bluemix"
@@ -16,17 +18,19 @@
   "dependencies": {
     "when": "3.7.7",
     "async": "~2.1.4",
-  	"cfenv": "*",
+    "cfenv": "*",
     "nconfig": "*",
     "lodash": "~3.9.3",
     "bunyan": "^1.3.2",
     "bunyan-console-stream": "^0.1.0",
     "moment": "^2.10.3",
-    "cloudant": "^1.0.0"
+    "cloudant": "^1.0.0",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "mocha": "*"
   },
   "license": "Apache-2.0",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "snyk": true
 }
